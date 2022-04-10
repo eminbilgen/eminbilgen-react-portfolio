@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Anton|Marcellus+SC|Shrikhand&display=swap');
+.story{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+.story *{
+    padding: 0;
+    margin: 0;
+    
+}
+.story-title{
+    font-size: calc(3.5vh + 2.5vw);
+    color: rgb(30,30,30);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1vh;
+    font-family: 'Marcellus SC', serif;
+    text-shadow: -0.5vh 0 .1vh rgba(255,0,0,0.67),   .5vh 0 .1vh rgba(0, 255, 255, 0.67);
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    justify-items: center;
+}
+.story-title-wrapper{
+    background-color: rgb(238, 238, 238);
+    width: 100%;
+    height: 30%;
+    top: 0; 
+    display: flex;
+    justify-content: center;
+}
+.story-title:after{
+    content:'';
+    display:inline-block;
+    width:75%; height:1.1vh;
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    right: 12.5%;
+    align-items: center;
+    border-bottom: 0.2vh;
+    background-color: rgb(30,30,30);
+    box-shadow: -0.3vh -0.1vh 0 .1vh rgba(255,0,0,0.67),   .3vh 0.1vh .1vh rgba(0, 255, 255, 0.67);
+}
+.story-title-wrapper:after{
+    content:'';
+    display:inline-block;
+    width:100%; height:.25vh;
+    justify-content: center;
+    display: flex;
+    left: 0%;
+    margin-top: 30vh;
+    position: absolute;
+    align-items: center;
+    border-bottom: 0.2vh;
+    background-color: rgb(218, 218, 218);
+}
+.story-content{
+    width: 100%;
+    height: 69%;
+    width: fit-content;
+    font-weight: 300;
+    display: flex;
+        text-align: left;
+        align-items: center;
+        align-self: center;
+        justify-content: center;
+        justify-items: center;
+}
+.links{
+    text-decoration: none;
+    color: aqua;
+}
+.story-t{
+    width: 70%;
+    font-size: calc(1.5vh + 2.5vw);
+    display: flex;
+}
+
+@media screen and (max-width: 768px){
+    .story-title{
+        text-shadow: -0.8vh 0 .1vh rgba(255,0,0,0.67),   .8vh 0 .1vh rgba(0, 255, 255, 0.67);
+    }
+    .story-title{
+        font-size: calc(2.5vh + 2.5vw);
+    }
+    .story-content{
+        width: 100%;
+        height: 69%;
+        display: flex;
+        text-align: left;
+        align-items: center;
+        align-self: center;
+        justify-content: center;
+        justify-items: center;
+        left: auto;
+        margin: auto;
+    }
+    .story-title:after{
+        height: 1vh;
+        width: 80%;
+        right: 10%;
+        box-shadow: -0.6vh .2vh 0 .2vh rgba(255,0,0,0.67),   .6vh -0.2vh .2vh rgba(0, 255, 255, 0.67);
+    }
+}
+    

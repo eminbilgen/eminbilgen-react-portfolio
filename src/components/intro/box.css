@@ -1,0 +1,47 @@
+.i-box2{
+    width: 34.4vw;
+    height: 34.4vw;
+    justify-content: center;
+    flex-direction: column;
+    z-index: -1;
+    margin-left: 4.75vw;
+    margin-top: -6.5vw;
+    position:absolute;
+}
+
+.dots2{
+    z-index: 4;
+    margin-left: 1.17vw;
+    border-radius: 50%;
+    float: left;
+    width: 1.2vw;
+    height: 1.2vw;
+    background-color: #f53766;
+}
+.dot2{
+    z-index: 4;
+    border-radius: 50%;
+    float: left;
+    width: 1.2vw;
+    height: 1.2vw;
+    background-color: #f53766;
+}
+.dots2{
+    z-index: 4;
+    margin-left: 1.17vw;
+    margin-top: 1vw;
+    border-radius: 50%;
+    float: left;
+    width: 1.2vw;
+    height: 1.2vw;
+    background-color: #f53766;
+}
+.dot2{
+    z-index: 4;
+    margin-top: 1vw;
+    border-radius: 50%;
+    float: left;
+    width: 1.2vw;
+    height: 1.2vw;
+    background-color: #f53766;
+}
